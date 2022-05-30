@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Salsa&display=swap');
+
+body {
+    color: hsl(var(--a));
+    font-family: 'Nunito', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Salsa', cursive;
+}
