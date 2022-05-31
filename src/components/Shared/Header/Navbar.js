@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const applyClass = ({ isActive }) => {
-        return `font-semibold px-3 ${isActive ? 'bg-accent text-base-100' : 'hover:bg-secondary bg-transparent hover:text-base-100'}`;
+        return `font-semibold px-3 ${isActive ? 'bg-accent text-base-100' : 'bg-transparent hover:bg-gradient-to-r hover:from-primary hover:to-secondary hover:text-base-100'}`;
     };
 
     return (
