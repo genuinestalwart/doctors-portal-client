@@ -7,6 +7,7 @@ import Home from './components/Main/Home';
 import Login from './components/Main/Login';
 import NotFound from './components/Main/NotFound';
 import Reviews from './components/Main/Reviews';
+import Footer from './components/Shared/Footer/Footer';
 import Header from './components/Shared/Header/Header';
 
 function App() {
@@ -14,15 +15,19 @@ function App() {
 		<div className="App">
 			<Header></Header>
 
-			<Routes>
-				<Route path='/' element={<Home></Home>}></Route>
-				<Route path='/about' element={<About></About>}></Route>
-				<Route path='/appointment' element={<Appointment></Appointment>}></Route>
-				<Route path='/reviews' element={<Reviews></Reviews>}></Route>
-				<Route path='/contact-us' element={<ContactUs></ContactUs>}></Route>
-				<Route path='/login' element={<Login></Login>}></Route>
-				<Route path='*' element={<NotFound></NotFound>}></Route>
-			</Routes>
+			<main>
+				<Routes>
+					<Route path='/' element={<Home></Home>}></Route>
+					<Route path='/about' element={<About></About>}></Route>
+					<Route path='/appointment' element={<Appointment></Appointment>}></Route>
+					<Route path='/reviews' element={<Reviews></Reviews>}></Route>
+					<Route path='/contact-us' element={<ContactUs></ContactUs>}></Route>
+					<Route path='/login' element={<Login></Login>}></Route>
+					<Route path='*' element={<NotFound></NotFound>}></Route>
+				</Routes>
+			</main>
+
+			<Footer></Footer>
 		</div>
 	);
 }
