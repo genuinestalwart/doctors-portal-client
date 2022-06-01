@@ -4,8 +4,8 @@ const Footer = () => {
     const footerLinkStyle = 'block link link-hover my-1';
 
     return (
-        <footer className='bg-base-200 block footer'>
-            <div className='flex justify-around py-12'>
+        <footer className='bg-base-200 block footer py-12 space-y-8'>
+            <div className='flex justify-around'>
                 <div className='text-left'>
                     <h5 className='footer-title text-lg'>Services</h5>
                     <span className={footerLinkStyle}>Emergency Checkup</span>
@@ -24,7 +24,7 @@ const Footer = () => {
                     <span className='block my-1'>New York - 101010 Hudson</span>
                 </div>
             </div>
-            <p className='block font-semibold py-8 text-center'>Copyright &copy;2022 - All Rights Reserved.</p>
+            <p className='block font-semibold text-center'>Copyright &copy;2022 - All Rights Reserved.</p>
         </footer>
     );
 };
