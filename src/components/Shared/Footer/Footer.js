@@ -4,7 +4,7 @@ const Footer = () => {
     const footerLinkStyle = 'block link link-hover my-1';
 
     return (
-        <footer className='bg-base-200 block footer py-12 space-y-8'>
+        <footer className="bg-[url('/src/assets/images/footer.png')] bg-center bg-cover block footer py-12 space-y-8">
             <div className='flex justify-around'>
                 <div className='text-left'>
                     <h5 className='footer-title text-lg'>Services</h5>
