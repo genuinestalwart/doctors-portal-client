@@ -10,20 +10,31 @@ const Services = () => {
             <h3 className='font-medium mt-2 mb-12 text-2xl text-center'>Services We Provide</h3>
 
             <div className='gap-8 grid grid-cols-3 px-8 text-center'>
-                <div className='p-8 rounded-xl shadow-lg'>
-                    <div className='flex justify-center'><img className='w-1/4' src={flouride} alt="flouride" /></div>
-                    <h6 className='font-medium mt-8 mb-2 text-accent text-opacity-75'>Flouride Treatment</h6>
-                    <p className='text-sm'>Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+                <div className='grid grid-rows-2 p-8 place-content-between rounded-xl shadow-lg'>
+                    <div className='flex items-center justify-center'><img className='w-1/4' src={flouride} alt="flouride" /></div>
+
+                    <div>
+                        <h6 className='font-medium mt-6 mb-2 text-accent text-opacity-75'>Flouride Treatment</h6>
+                        <p className='text-sm'>Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+                    </div>
                 </div>
-                <div className='p-8 rounded-xl shadow-lg'>
-                    <div className='flex justify-center'><img className='w-1/4' src={cavity} alt="cavity" /></div>
-                    <h6 className='font-medium mt-8 mb-2 text-accent text-opacity-75'>Cavity Filling</h6>
-                    <p className='text-sm'>Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+
+                <div className='grid grid-rows-2 p-8 place-content-between rounded-xl shadow-lg'>
+                    <div className='flex items-center justify-center'><img className='w-1/4' src={cavity} alt="cavity" /></div>
+
+                    <div>
+                        <h6 className='font-medium mt-6 mb-2 text-accent text-opacity-75'>Cavity Filling</h6>
+                        <p className='text-sm'>Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+                    </div>
                 </div>
-                <div className='p-8 rounded-xl shadow-lg'>
-                    <div className='flex justify-center'><img className='w-1/4' src={whitening} alt="whitening" /></div>
-                    <h6 className='font-medium mt-8 mb-2 text-accent text-opacity-75'>Teeth Whitening</h6>
-                    <p className='text-sm'>Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+
+                <div className='grid grid-rows-2 p-8 place-content-between rounded-xl shadow-lg'>
+                    <div className='flex items-center justify-center'><img className='w-1/4' src={whitening} alt="whitening" /></div>
+
+                    <div>
+                        <h6 className='font-medium mt-6 mb-2 text-accent text-opacity-75'>Teeth Whitening</h6>
+                        <p className='text-sm'>Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the</p>
+                    </div>
                 </div>
             </div>
         </section>
