@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => {
-    const footerLinkStyle = 'block link link-hover my-1';
+    const footerLinkStyle = 'block link link-hover my-1 underline-offset-2';
 
     return (
         <footer className="bg-[url('/src/assets/images/footer.png')] bg-center bg-cover block footer py-12 space-y-8">

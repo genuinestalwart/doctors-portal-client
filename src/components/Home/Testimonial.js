@@ -5,7 +5,7 @@ import people3 from '../../assets/images/people3.png';
 
 const Testimonial = () => {
     return (
-        <section className="bg-[url('/src/assets/icons/quote.svg')] bg-right-top bg-no-repeat bg-[length:15%_25%] mt-20">
+        <section className="bg-[url('/src/assets/icons/quote.svg')] bg-right-top bg-no-repeat bg-[length:15%_25%] mt-24">
             <h5 className='font-bold ml-12 text-primary text-lg'>Testimonial</h5>
             <h3 className='font-medium ml-12 mt-2 mb-20 text-2xl'>What Our Patients Says</h3>
 

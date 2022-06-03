@@ -5,7 +5,7 @@ import whitening from '../../assets/images/whitening.png';
 
 const Services = () => {
     return (
-        <section className='mt-20'>
+        <section className='mt-24'>
             <h5 className='font-bold text-primary text-lg text-center uppercase'>Our Services</h5>
             <h3 className='font-medium mt-2 mb-12 text-2xl text-center'>Services We Provide</h3>
 

@@ -12,7 +12,7 @@ import Header from './components/Shared/Header/Header';
 
 function App() {
 	return (
-		<div className="App">
+		<>
 			<Header></Header>
 
 			<main>
@@ -28,7 +28,7 @@ function App() {
 			</main>
 
 			<Footer></Footer>
-		</div>
+		</>
 	);
 }
 

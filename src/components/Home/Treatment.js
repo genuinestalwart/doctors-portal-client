@@ -3,7 +3,7 @@ import treatment from '../../assets/images/treatment.png';
 
 const Treatment = () => {
     return (
-        <section className='mt-20'>
+        <section className='mt-24'>
             <div className="hero px-40">
                 <div className="hero-content justify-between">
                     <img src={treatment} className="rounded-lg shadow-lg w-2/5" alt='' />

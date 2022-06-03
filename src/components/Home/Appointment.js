@@ -3,7 +3,7 @@ import doctorSmall from '../../assets/images/doctor-small.png';
 
 const Appointment = () => {
     return (
-        <section className="bg-[url('/src/assets/images/appointment.png')] bg-bottom bg-cover mt-20">
+        <section className="bg-[url('/src/assets/images/appointment.png')] bg-bottom bg-cover mt-44">
             <div className="hero pl-12 pr-28">
                 <div className="gap-0 hero-content p-0">
                     <img src={doctorSmall} className="-mt-20 w-1/2" alt='' />
