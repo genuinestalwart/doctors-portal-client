@@ -1,0 +1,13 @@
+.rdp-button_reset,
+.rdp-button,
+.rdp-day,
+.rdp-day_selected:not([aria-disabled="true"]),
+.rdp-day_selected:focus:not([aria-disabled="true"]),
+.rdp-day_selected:active:not([aria-disabled="true"]),
+.rdp-day_selected:hover:not([aria-disabled="true"]),
+.rdp-day:not([aria-disabled="true"]),
+.rdp-day:focus:not([aria-disabled="true"]),
+.rdp-day:active:not([aria-disabled="true"]),
+.rdp-day:hover:not([aria-disabled="true"]) {
+	all: unset;
+}
