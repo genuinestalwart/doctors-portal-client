@@ -1,0 +1,82 @@
+[
+	{
+		"visitingHours": "5:00 PM - 6:00 PM",
+		"serviceName": "Oral Surgery"
+	},
+	{
+		"visitingHours": "4:30 PM - 5:30 PM",
+		"serviceName": "Pediatric Dental"
+	},
+	{
+		"visitingHours": "12:30 PM - 1:30 PM",
+		"serviceName": "Cavity Protection"
+	},
+	{
+		"visitingHours": "12:00 PM - 1:00 PM",
+		"serviceName": "Cavity Protection"
+	},
+	{
+		"visitingHours": "8:30 PM - 9:30 PM",
+		"serviceName": "Pediatric Dental"
+	},
+	{
+		"visitingHours": "6:30 PM - 7:30 PM",
+		"serviceName": "Teeth Orthodontics"
+	},
+	{
+		"visitingHours": "6:00 PM - 7:00 PM",
+		"serviceName": "Teeth Orthodontics"
+	},
+	{
+		"visitingHours": "5:30 PM - 6:30 PM",
+		"serviceName": "Oral Surgery"
+	},
+	{
+		"visitingHours": "10:30 AM - 11:30 AM",
+		"serviceName": "Cosmetic Dentistry"
+	},
+	{
+		"visitingHours": "6:30 PM - 7:30 PM",
+		"serviceName": "Teeth Cleaning"
+	},
+	{
+		"visitingHours": "10:00 AM - 11:00 AM",
+		"serviceName": "Cosmetic Dentistry"
+	},
+	{
+		"visitingHours": "7:00 PM - 8:00 PM",
+		"serviceName": "Oral Surgery"
+	},
+	{
+		"visitingHours": "6:00 PM - 7:00 PM",
+		"serviceName": "Teeth Orthodontics"
+	},
+	{
+		"visitingHours": "10:30 AM - 11:30 AM",
+		"serviceName": "Cosmetic Dentistry"
+	},
+	{
+		"visitingHours": "1:00 PM - 2:00 PM",
+		"serviceName": "Teeth Cleaning"
+	},
+	{
+		"visitingHours": "12:30 PM - 1:30 PM",
+		"serviceName": "Cavity Protection"
+	},
+	{
+		"visitingHours": "6:30 PM - 7:30 PM",
+		"serviceName": "Teeth Orthodontics"
+	},
+	{
+		"visitingHours": "6:00 PM - 7:00 PM",
+		"serviceName": "Pediatric Dental"
+	},
+	{
+		"visitingHours": "7:30 PM - 8:30 PM",
+		"serviceName": "Cavity Protection"
+	},
+	{
+		"visitingHours": "10:00 AM - 11:00 AM",
+		"serviceName": "Teeth Cleaning"
+	}
+]
